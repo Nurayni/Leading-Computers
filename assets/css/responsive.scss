@@ -1,0 +1,416 @@
+@media (min-width:1920px) {
+    .nav-wrapper .custom-nav .nav-item .nav-link {
+        font-size: 18px;
+    }
+    .cart-wrapper-area .remove {
+        margin-top: 0px;
+    }
+}
+@media (max-width:1199px) {
+    .remove {
+        position: relative;
+        top: 32px;
+    }
+    .nav-wrapper .header-top-area .td-style .top-social-item {
+        margin-left: 0;
+    }
+    .nav-wrapper .header-top-area .td-style .mc-toggler {
+        margin-left: 0px;
+    }
+    .nav-wrapper .logo {
+        width: 100%;
+    }
+    .nav-wrapper .custom-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .banner-wrapper-area .owl-theme .owl-nav.disabled + .owl-dots {
+        left: 0;
+    }
+    .banner-wrapper-area .banner-side .content h4 {
+        font-size: 19px;
+    }
+    .banner-wrapper-area .banner-side .content-two h4 {
+        font-size: 19px;
+    }
+    .banner-wrapper-area .banner-side2 .content-three h4 {
+        font-size: 19px;
+    }
+    .categories-wrapper-area .owl-nav .owl-prev {
+        bottom: 135px;
+    }
+    .categories-wrapper-area .owl-nav .owl-next {
+        bottom: 135px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 991px) {
+    .pc-wrapper-area table ul li {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .product-quantity {
+        .one {
+            position:relative;
+            top:10px;
+        }
+    }
+    .banner-area-one {
+        ul {
+            margin-top: -40px;
+        }
+    }
+    .cart-btn {
+        margin-bottom:40px;
+    }
+    .remove {
+        position: relative;
+        top: 0;
+    }
+    .colse-btn {
+        display:block !important;
+    }
+    .nav-wrapper .header-top-area .top-social-icon-column {
+        text-align: center;
+    }
+    .top-info-column {
+        display: none;
+    }
+    .custom-nav {
+        display:none;
+    }
+    .nav-wrapper .logo {
+        width: 30%;
+        position: relative;
+        top: 22px;
+    }
+    .nav-wrapper .custom-nav {
+        padding: 0px 0px;
+    }
+    .nav-wrapper .header-top-area .td-style .style-content .pc-btn {
+        padding: 0;
+        border: none;
+        background: transparent;
+        border-radius: 0;
+        border: transparent;
+    }
+    .nav-wrapper .header-top-area {
+        display:block;
+        position: fixed;
+        top: 0;
+        z-index: 999999;
+        width: 100%;
+        border-bottom:none;
+        .mc-toggler {
+            display:none;
+        }
+    }
+    .nav-wrapper .header-top-area .td-style .top-social-item {
+        margin-left: 45px;
+    }
+    .bottom-area-two {
+        display:none;
+        position: fixed;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        bottom: 0;
+    }
+    .navbar-light .navbar-toggler {
+        position:relative;
+        top: -22px;
+    }
+    .banner-wrapper-area  {
+        padding:0px 0px 50px 0px
+    }
+    .banner-wrapper-area .banner-wrap {
+        margin-top: 0px;
+    }
+    .banner-wrapper-area .banner-side .content-two {
+        margin-top: 20px;
+    }
+    .banner-wrapper-area .owl-theme .owl-nav.disabled + .owl-dots {
+        left: 0;
+        bottom: -55px;
+        margin-top:0;
+    }
+    .box-wrapper-area .box-inner-content .dl::before {
+        display:none;
+    }
+    .laptop-wrapper-area .laptop-inner .laptop-slide {
+        margin-bottom: 20px;
+    }
+    .viwed-wrapper-area .laptop-inner .laptop-slide {
+        margin-bottom: 20px;
+    }
+    .categories-one-area .item-inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        gap: 10px;
+        text-align: center;
+    }
+    .categories-one-area .item-inner .item {
+        margin-bottom: 20px;
+    }
+    .categories-one-area .item-inner .item p {
+        font-size: 16px;
+    }
+    .categories-wrapper-area .owl-nav .owl-prev {
+        bottom: 105px;
+    }
+    .categories-wrapper-area .owl-nav .owl-next {
+        bottom: 105px;
+    }
+    .rating-wrapper-area .rating-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        gap: 10px;
+        text-align: center;
+    }
+    .rating-wrapper-area .rating-content .rating-area {
+        margin-bottom: 20px;
+    }
+    .news-area-wrapper .news-inner p {
+        margin-bottom: 20px;
+    }  
+    .brand-wrapper-area .brand-inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        gap: 10px;
+    }
+    .brand {
+        margin-bottom:20px;
+    }
+    .brand-wrapper-area .brand-inner .image {
+        width: 70%;
+    }
+    .payment {
+        margin-bottom:20px;
+    }
+}
+@media (max-width:767px) {
+    .print-pc-wrapper .logo-content .inner {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .pc-wrapper-area .cart-table td {
+        border-bottom: none;
+    }
+    .pc-wrapper-area {
+        table {
+            position:relative;
+        }
+        tr {
+            border-bottom:none !important;
+        }
+    }
+    .pc-wrapper-area .cart-table .product-name a {
+        color: #2b3445;
+        font-size: 14px;
+    }
+    .remove {
+        position: relative;
+        top: 32px;
+    }
+    .cart-wrapper-area .product-quantity .input-counter input {
+        width: 48%;
+    }
+    .cart-wrapper-area .cart-table th {
+        font-size: 14px;
+    }
+    .banner-wrapper-area {
+        display: none;
+    }
+    .banner {
+        display:block;
+    }
+    .banner-wrapper-area .owl-theme .owl-nav.disabled + .owl-dots {
+        bottom: 55px;
+    }
+    .banner-wrapper-area .banner-side .content h4 {
+        font-size: 22px;
+    }
+    .banner-wrapper-area .banner-side .content-two h4 {
+        font-size: 22px;
+    }
+    .banner-wrapper-area .banner-side2 .content-three h4 {
+        font-size: 22px;
+    }
+    .banner-wrapper-area .banner-side .content-two {
+        margin-top: 0px;
+    }
+    .footer-wrapper-area .contact ul li a {
+        font-size: 12px;
+    }
+    .footer-wrapper-area .categories ul li a {
+        font-size: 12px;
+    }
+    .categories-wrapper-area .owl-nav .owl-prev {
+        display:none;
+    }
+    .categories-wrapper-area .owl-nav .owl-next {
+        display:none;
+    }
+    .footer-wrapper-area .footer-area img {
+        width: 100%;
+    }
+    .contact {
+        margin-top: -60px;
+    }
+}
+@media(max-width:575px) {
+    .print-pc-wrapper .logo-content .logo-image {
+        width: 70%;
+    }
+    .empty-wrapper-area {
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .mean-nav img {
+        width: 38%;
+    }
+    .nav-wrapper .header-top-area .td-style .top-social-item {
+        margin-left: 25px;
+    }
+    .mean-bar .option-item .search-btn {
+        font-size: 25px;
+    }
+    .mean-bar .option-item {
+        right: 75px;
+        top:25px;
+    }
+    .mean-bar .mc-toggler {
+        right: 15px;
+        top:18px;
+    }
+    .mean-bar .option-item .search-popup {
+        right: -75px;
+    }
+    
+    .banner-wrapper-area .banner-wrap .banner-content {
+        text-align: center;
+    }
+    .banner-wrapper-area .banner-side {
+        margin-bottom: 20px;
+    }
+    .banner-wrapper-area .banner-side .content {
+        text-align: center;
+        margin-top:20px;
+    }
+    .banner-wrapper-area .banner-side .content h4 {
+        margin-top: 20px;
+    }
+    .banner-wrapper-area .banner-side .content-two {
+        text-align: center;
+    }
+    .banner-wrapper-area .banner-side .content-two h4 {
+        margin-top: 20px;
+    }
+    .banner-wrapper-area .banner-side2 .content-three {
+        text-align: center;
+    }
+    .banner-wrapper-area .banner-side2 .content-three h4 {
+        margin-top: 20px;
+    }
+    .box-wrapper-area .box-inner-content .box-inner {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .laptop-wrapper-area .laptop-inner .gaming-area .content {
+        text-align: center;
+    }
+    .viwed-wrapper-area .laptop-inner .gaming-area .content {
+        text-align: center;
+    }
+    .news-area-wrapper .newsletter {
+        text-align: center;
+    }
+    .footer-wrapper-area .footer-area img {
+        width: 60%;
+    }
+    .contact {
+        margin-top: 15px;
+    }
+    .categories {
+        margin-top: 15px;
+    }
+    .footer-wrapper-area .footer-area .payment img {
+        width: 30%;
+    }
+    .bottom-area-two .td-style .top-social-item {
+        margin-left: 15px;
+    }
+    .footer-wrapper-area {
+        padding: 50px 0px 0px 0px;
+    }
+    .brand-wrapper-area .brand-inner .image {
+        width: 45%;
+    }
+    .banner-wrapper-area .banner-wrap {
+        margin-top: 5px;
+    }
+    .default {
+        padding: 0.9rem 1rem;
+    }
+    .banner-wrapper-area .owl-theme .owl-nav.disabled + .owl-dots {
+        display:none;
+    }
+    .news-area-wrapper .news-submit-wrapper .btn-secondary {
+        padding: 10px 20px;
+    }
+    .banner-wrapper-area .banner-side2 {
+        margin-top: 0px;
+    }
+    .laptop-wrapper-area {
+        padding: 15px 0px 0px 0px;
+    }
+}
+@media (max-width:373px) {
+    .banner-wrapper-area .owl-theme .owl-nav.disabled + .owl-dots {
+        bottom: 8px;
+    }
+}
+@media (max-width:399px) {
+    .mean-nav img {
+        width: 55% !important;
+        margin-top: -45px;
+        margin-left: 42px;
+    }
+    .news-area-wrapper .news-submit-wrapper {
+        display: block;
+    }
+    .news-area-wrapper .news-submit-wrapper .form-control {
+        width: 100%;
+        border-radius: 8px 8px 8px 8px;
+    }
+    .news-area-wrapper .news-submit-wrapper .btn-secondary {
+        margin: 15px auto 0px;
+    }
+    .title svg {
+        width: 10% !important;
+    }
+}
+@media (max-width:333px) {
+    .nav-wrapper .header-top-area .td-style .top-social-item {
+        margin-left: 16px;
+    }
+}
+@media (max-width:324px) {
+    .nav-wrapper .header-top-area .td-style {
+        margin-top: 0;
+    }
+}
+@media (max-width:321px) {
+    .mean-bar {
+        margin-top: 112px;
+        top: -43px;
+    }
+    .banner-area-one ul {
+        margin-top: -28px;
+    }
+}

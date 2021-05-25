@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- Links of CSS file -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/logo-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css" media="all" />
+</head>
+<body>  
+    <div class="float-social">
+        <ul id="social_side_links">
+          <li><a style="background-color: #3c5a96;" href="https://facebook.com" target="_blank"><img src="https://www.dropbox.com/s/xk5pdj8nks1ymdh/facebook-icon.png?raw=1" alt="" /></a></li>
+          <li><a style="background-color: #1dadeb;" href="https://twitter.com" target="_blank"><img src="https://www.dropbox.com/s/c8in3qcf1uqsqrb/twitter-icon.png?raw=1" alt="" /></a></li>
+          <li><a style="background-color: #1178b3;" href="https://linkedin.com" target="_blank"><img src="https://www.dropbox.com/s/pb0a0p7p1pwprue/linkedin-icon.png?raw=1" alt="" /></a></li>
+        </ul>
+    </div>
+    <a href="#" class="back2 aaa" style="display: block;"> <i class="fas fa-chevron-up" aria-hidden="true"></i> </a>
+    <!--Start Laptop Menu-->
+    <header class="nav-wrapper">
+        <div class="header-top-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 top-info-column">
+                     <div class="td-table">
+                         <div class="td-table-cell">
+                          <form role="search" method="get" class="search-form">
+                              <label>
+                                  <span class="screen-reader-text">Search for:</span>
+                                  <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                              </label>
+                              <input type="submit" class="search-submit" value="Search">
+                              <button type="button" class="search-icon-desktop"><i class="fa fa-search"></i></button>
+                          </form>
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 top-social-icon-column">
+                      <div class="td-style">
+                          <div class="style-content">
+                              <ul>
+                                  <li> <a href="#0" class="pc-btn"><span>Build Pc</span></a></li>
+                                  <li><a href="#0" class="pc-btn one"><span>Cctv Setup</span></a></li>
+                                  <li class="top-social-item">
+                                      <a href="register.html" class="play-btn" data-toggle="modal" data-target="#reelvid">Register /</a>
+                                      <a href="login.html" class="play-btn play-btn2" data-toggle="modal" data-target="#reelvid2">Login</a>
+                                  </li>
+                                  <li><a href="cart.html"><span class="mc-toggler" title="Items(0)"><i class="fa fa-shopping-cart"></i><span class="value counter">0</span></span></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!--Responsive menu-->
+        <div class="mean-wrapper">
+          <nav>
+              <a href="#"><img src="assets/image/logo.png" alt=""></a>
+              <div class="option-item">
+                <i class="fas fa-search search-btn"></i>
+                <div class="search-overlay search-popup" style="display: none;">
+                <div class="search-box">
+                <form class="search-form">
+                  <i class="fas fa-times close-btn"></i>
+                <input class="search-input" name="search" placeholder="Search" type="text">
+                <button class="search-button" type="submit">
+                  <i class="fas fa-search search"></i>
+                </button>
+                </form>
+                </div>
+                </div>
+                </div>
+                <a href="#0"><span class="mc-toggler" title="Items(0)"><i class="fa fa-shopping-cart"></i><span class="value counter">0</span></span></a>
+                <ul>
+                  <li><a href="#">Desktop</a>
+                    <ul>
+                      <li><a href="#0">Special Pc</a>
+                      </li>
+                      <li><a href="#0">Star Pc</a>
+                        <ul >
+                            <li><a href="#">RYZEN Pc</a></li>
+                            <li><a href="#">Intel Pc</a></li>
+                          </ul>
+                      </li>
+                      <li><a ref="#0">Gaming Pc</a>
+                        <ul >
+                            <li><a href="#">RYZEN Pc</a></li>
+                            <li><a href="#">Intel Pc</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Brand Pc</a>
+                        <ul >
+                            <li><a href="#">Lenevo</a></li>
+                            <li><a href="#">Hp</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Asus</a></li>
+                            <li><a href="#">Acer</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Apple Mac Mini</a></li>
+                      <li><a href="#0">Apple IMac</a></li>
+                  </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                     Laptop
+                    </a>
+                    <ul>
+                      <li><a href="#0">All Laptop</a>
+                        <ul>
+                            <li><a href="#">Razor</a></li>
+                            <li><a href="#">Mi</a></li>
+                            <li><a href="#">MacBook</a></li>
+                            <li><a href="#">Surface</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Lenevo</a></li>
+                            <li><a href="#">Acer</a></li>
+                            <li><a href="#">Walton</a></li>
+                            <li><a href="#">Nexstgo</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Gaming Laptop</a>
+                        <ul>
+                            <li><a href="#">Razor</a></li>
+                            <li><a href="#">Hp</a></li>
+                            <li><a href="#">Asus</a></li>
+                            <li><a href="#">MSI</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Lenevo</a></li>
+                            <li><a href="#">Acer</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Laptop Bag</a>
+                        <ul>
+                            <li><a href="#">Hp</a></li>
+                            <li><a href="#">Targus</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Lenevo</a></li>
+                          </ul>
+                      </li>
+                      <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Laptop Accessories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Laptop Cooler</a></li>
+                            <li><a href="#">Laptop Desk</a></li>
+                            <li><a href="#">Laptop Locker</a></li>
+                            <li><a href="#">Laptop Bttery</a></li>
+                            <li><a href="#">KeyBoard</a></li>
+                            <li><a href="#">Adapter</a></li>
+                            <li><a href="#">Display</a></li>
+                            <li><a href="#">DVD Writer</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">External Graphics Encloser</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                     Component
+                    </a>
+                    <ul>
+                      <li><a href="#0">Casing</a>
+                        <ul>
+                            <li><a href="#">Antec</a></li>
+                            <li><a href="#">Gamdias</a></li>
+                            <li><a href="#">Corsair</a></li>
+                            <li><a href="#">Cooler Master</a></li>
+                            <li><a href="#">NZXT</a></li>
+                            <li><a href="#">Gigabyte</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Casing Cooler</a>
+                        <ul>
+                            <li><a href="#">Antec</a></li>
+                            <li><a href="#">Noctua</a></li>
+                            <li><a href="#">Lian Li</a></li>
+                            <li><a href="#">Gamedias</a></li>
+                            <li><a href="#">NZXT</a></li>
+                            <li><a href="#">Corsair</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Power Supply</a>
+                        <ul>
+                            <li><a href="#">Antec</a></li>
+                            <li><a href="#">Gamedias</a></li>
+                            <li><a href="#">MaxGreen</a></li>
+                            <li><a href="#">Cooler</a></li>
+                            <li><a href="#">Master</a></li>
+                            <li><a href="#">Thermaltake</a></li>
+                            <li><a href="#">Lian Li</a></li>
+                            <li><a href="#">MSI</a></li>
+                            <li><a href="#">Aigo</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Processor</a>
+                        <ul>
+                            <li><a href="#">AMD</a></li>
+                            <li><a href="#">Intel</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Cpu Cooler</a>
+                        <ul>
+                            <li><a href="#">Antec</a></li>
+                            <li><a href="#">Gamdias</a></li>
+                            <li><a href="#">Corsair</a></li>
+                            <li><a href="#">Lian Li</a></li>
+                            <li><a href="#">MSI</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Motherboard</a>
+                        <ul>
+                            <li><a href="#">ASROCK(Intel)</a></li>
+                            <li><a href="#">ASROCK(Ryzen)</a></li>
+                            <li><a href="#">ASUS(Intel)</a></li>
+                            <li><a href="#">ASUS(AMD)</a></li>
+                            <li><a href="#">Gigabyte(Intel)</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Graphics Card</a>
+                        <ul>
+                            <li><a href="#">XFX</a></li>
+                            <li><a href="#">Galax</a></li>
+                            <li><a href="#">ZOTAC</a></li>
+                            <li><a href="#">Gigabyte</a></li>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">PNY</a></li>
+                            <li><a href="#">MSI</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Portable Hard Disk Drive</a>
+                        <ul>
+                            <li><a href="#">G-Technology</a></li>
+                            <li><a href="#">ADATA</a></li>
+                            <li><a href="#">Transcend</a></li>
+                            <li><a href="#">Western Digital</a></li>
+                            <li><a href="#">Seagate</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Hard Disk Drive</a>
+                        <ul>
+                            <li><a href="#">Toshiba</a></li>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">Western Digital</a></li>
+                            <li><a href="#">Seagate</a></li>
+                          </ul>
+                      </li>
+                      <li><a  href="#0">SSD</a>
+                        <ul>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Western Digital</a></li>
+                            <li><a href="#">Adata</a></li>
+                            <li><a href="#">Transcend</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Hp</a></li>
+                            <li><a href="#">Corsair</a></li>
+                            <li><a href="#">Patroit</a></li>
+                            <li><a href="#">Intel</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">RAM(Desktop)</a>
+                        <ul>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Corsair</a></li>
+                            <li><a href="#">G.Skill</a></li>
+                            <li><a href="#">TwinMosa</a></li>
+                            <li><a href="#">Adata</a></li>
+                            <li><a href="#">Patroit</a></li>
+                            <li><a href="#">Hp</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">RAM(Laptop)</a>
+                        <ul>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Transcend</a></li>
+                            <li><a href="#">G.Skill</a></li>
+                            <li><a href="#">TRM</a></li>
+                            <li><a href="#">Patroit</a></li>
+                            <li><a href="#">Hp</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Portable SSD</a>
+                        <ul>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Transcend</a></li>
+                            <li><a href="#">G.Skill</a></li>
+                            <li><a href="#">TRM</a></li>
+                            <li><a href="#">Patroit</a></li>
+                            <li><a href="#">Hp</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Ram Cooler</a>
+                      </li>
+                      <li><a href="#0">Sound Card</a>
+                      </li>
+                      <li><a href="#0">Optical Disk Drive</a>
+                        <ul>
+                            <li><a href="#">Intel Optical Disk Drive</a></li>
+                            <li><a href="#">External Optical Disk Drive</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#0">Stablizer</a>
+                      </li>
+                      <li><a href="#0">Vertical Graphics Card Holder</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Monitor</span></a>
+                    <ul>
+                        <li><a href="#0">Asus</a>
+                        </li>
+                        <li><a href="#0">LG</a>
+                        </li>
+                        <li><a href="#0">Hp</a>
+                        </li>
+                        <li><a href="#0">Dell</a></li>
+                        <li><a href="#0">Samsung</a></li>
+                        <li><a href="#0">Xiaomi</a></li>
+                        <li><a href="#0">Walton</a></li>
+                        <li><a href="#0">Acer</a></li>
+                        <li><a href="#0">Touch Monitor</a></li>
+                        <li><a href="#0">Gaming Monitor</a></li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#0">Ups</span></a>
+                    <ul>
+                        <li><a href="#0">Online Ups</a>
+                          <ul>
+                              <li><a href="#">APOLLO</a></li>
+                              <li><a href="#">Tecnoware</a></li>
+                              <li><a href="#">MaxGreen</a></li>
+                              <li><a href="#">Zigor</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Offline Ups</a>
+                          <ul>
+                                <li><a href="#">Tecnoware</a></li>
+                                <li><a href="#">MaxGreen</a></li>
+                                <li><a href="#">Zigor</a></li>
+                                <li><a href="#">Prolink</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">UPS Battery</a></li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#0">Tablet</span></a>
+                    <ul>
+                        <li><a href="#0">Apple</a></li>
+                        <li><a href="#0">Microsoft</a></li>
+                        <li><a href="#0">Leneovo</a></li>
+                        <li><a href="#0">HUAWEI</a></li>
+                        <li><a href="#0">Wacom</a></li>
+                        <li><a href="#0">Amazon</a></li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#0">Camera</span></a>
+                    <ul>
+                        <li><a href="#0">Action Camera</a></li>
+                        <li><a href="#0">DSLR</a>
+                          <ul>
+                              <li><a href="#">Canon</a></li>
+                              <li><a href="#">Nikon</a></li>
+                              <li><a href="#">Sony</a></li>
+                              <li><a href="#">Handcyam</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Camera Lenses</a>
+                          <ul>
+                              <li><a href="#">Sony</a></li>
+                              <li><a href="#">Nikon</a></li>
+                              <li><a href="#">Canon</a></li>
+                              <li><a href="#">Tamron</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Digital Camera</a>
+                          <ul>
+                              <li><a href="#">Samsung</a></li>
+                              <li><a href="#">Sony</a></li>
+                              <li><a href="#">Panasonic</a></li>
+                              <li><a href="#">Nikon</a></li>
+                              <li><a href="#">Canon</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Video Camera</a>
+                            <ul>
+                                <li><a href="#">Sony</a></li>
+                                <li><a href="#">Panasonic</a></li>
+                                <li><a href="#">Canon</a></li>
+                              </ul>
+                        </li>
+                        <li><a href="#0">Camera Flash</a></li>
+                        <li><a href="#0">Camera Tripod</a></li>
+                        <li><a href="#0">Camera Accessories</a>
+                            <ul>
+                                <li><a href="#">Lens Filter</a></li>
+                                <li><a href="#">Camera Bag</a></li>
+                                <li><a href="#">Lens Adapter</a></li>
+                              </ul>
+                        </li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#0">Security</span></a>
+                    <ul>
+                        <li href="#0">Access Control</a>
+                          <ul>
+                              <li><a href="#">Cp Plus</a></li>
+                              <li><a href="#">Zkteco</a></li>
+                              <li><a href="#">Onspot</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#0">CC Camera</a>
+                          <ul>
+                              <li><a href="#">Jovision</a></li>
+                              <li><a href="#">YHDO</a></li>
+                              <li><a href="#">TVT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">IP Camera</a>
+                          <ul>
+                              <li><a href="#">Dahua</a></li>
+                              <li><a href="#">Symphony</a></li>
+                              <li><a href="#">Jovision</a></li>
+                              <li><a href="#">TP-Link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">CC Camera Accessories</a>
+                        </li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#">Accessories</span></a>
+                    <ul>
+                        <li><a href="#0">Keyboard</a>
+                          <ul>
+                              <li><a href="#">Razar</a></li>
+                              <li><a href="#">GAMDIAS</a></li>
+                              <li><a href="#">MaxGreen</a></li>
+                              <li><a href="#">Apple</a></li>
+                              <li><a href="#">A4 Tech</a></li>
+                              <li><a href="#">Hp</a></li>
+                              <li><a href="#">Corsair</a></li>
+                              <li><a href="#">Dell</a></li>
+                              <li><a href="#">Coder Mater</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Mouse</a>
+                          <ul>
+                            <li><a href="#">Razer</a></li>
+                            <li><a href="#">GAMDIAS</a></li>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">MaxGreen</a></li>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">Xiaomi</a></li>
+                            <li><a href="#">Hp</a></li>
+                            <li><a href="#">A4 Tech</a></li>
+                            <li><a href="#">Lenovo</a></li>
+                            <li><a href="#">Dell</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Mouse Pad</a>
+                          <ul>
+                                <li><a href="#">Razer</a></li>
+                                <li><a href="#">GAMDIAS</a></li>
+                                <li><a href="#">ASUS</a></li>
+                                <li><a href="#">Corsair</a></li>
+                                <li><a href="#">Hp</a></li>
+                                <li><a href="#">Hunter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Headphone</a>
+                            <ul>
+                                  <li><a href="#">Razer</a></li>
+                                  <li><a href="#">GAMDIAS</a></li>
+                                  <li><a href="#">Havit</a></li>
+                                  <li><a href="#">Corsair</a></li>
+                                  <li><a href="#">Hp</a></li>
+                                  <li><a href="#">A4 Tech</a></li>
+                                  <li><a href="#">Plextone</a></li>
+                                  <li><a href="#">Remax</a></li>
+                                  <li><a href="#">Xiomi</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">Speaker</a>
+                            <ul>
+                                  <li><a href="#">Razer</a></li>
+                                  <li><a href="#">Sony</a></li>
+                                  <li><a href="#">Xiaomi</a></li>
+                                  <li><a href="#">Philips</a></li>
+                                  <li><a href="#">Yamaha</a></li>
+                                  <li><a href="#">Xtreme</a></li>
+                                  <li><a href="#">KRK</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">Bluetooth Speakers</a>
+                            <ul>
+                                  <li><a href="#">F & D</a></li>
+                                  <li><a href="#">JBL</a></li>
+                                  <li><a href="#">Sony</a></li>
+                                  <li><a href="#">Samsung</a></li>
+                                  <li><a href="#">Xiaomi</a></li>
+                                  <li><a href="#">Remax</a></li>
+                                  <li><a href="#">X-MINI</a></li>
+                                  <li><a href="#">A4 Tech</a></li>
+                                  <li><a href="#">Hp</a></li>
+                                  <li><a href="#">Dell</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">EarPhone</a>
+                            <ul>
+                                  <li><a href="#">Razer</a></li>
+                                  <li><a href="#">Sony</a></li>
+                                  <li><a href="#">Xiaomi</a></li>
+                                  <li><a href="#">Realme</a></li>
+                                  <li><a href="#">Apple</a></li>
+                                  <li><a href="#">A4 Tech</a></li>
+                                  <li><a href="#">Oneplus</a></li>
+                                  <li><a href="#">Remax</a></li>
+                                  <li><a href="#">Samsung</a></li>
+                                  <li><a href="#">Plextone</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">Webcam</a>
+                            <ul>
+                                  <li><a href="#">Logitech</a></li>
+                                  <li><a href="#">A4 Tech</a></li>
+                                  <li><a href="#">Benq</a></li>
+                                  <li><a href="#">Value-Top</a></li>
+                                  <li><a href="#">Xiaomi</a></li>
+                                  <li><a href="#">View Sonic</a></li>
+                                  <li><a href="#">Delux</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">Microphone</a>
+                            <ul>
+                                  <li><a href="#">Razer</a></li>
+                                  <li><a href="#">Boya</a></li>
+                                  <li><a href="#">Audio Technica</a></li>
+                                  <li><a href="#">Panasonic</a></li>
+                                  <li><a href="#">Zoom</a></li>
+                                  <li><a href="#">Havit</a></li>
+                                  <li><a href="#">AKG</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">PenDrive</a>
+                            <ul>
+                                  <li><a href="#">Team</a></li>
+                                  <li><a href="#">Trancend</a></li>
+                                  <li><a href="#">PNY</a></li>
+                                  <li><a href="#">HP</a></li>
+                                  <li><a href="#">ADTA</a></li>
+                                  <li><a href="#">SanDisk</a></li>
+                                  <li><a href="#">Kingston</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">PenDrive</a>
+                            <ul>
+                                  <li><a href="#">Team</a></li>
+                                  <li><a href="#">Trancend</a></li>
+                                  <li><a href="#">PNY</a></li>
+                                  <li><a href="#">HP</a></li>
+                                  <li><a href="#">ADTA</a></li>
+                                  <li><a href="#">SanDisk</a></li>
+                                  <li><a href="#">Kingston</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#0">Capture Card</a>
+                          </li>
+                          <li><a href="#0">Memory Card</a>
+                            <ul>
+                                  <li><a href="#">Trancend</a></li>
+                                  <li><a href="#">PNY</a></li>
+                                  <li><a href="#">ADTA</a></li>
+                                  <li><a href="#">SanDisk</a></li>
+                                  <li><a href="#">Apacer</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#">Gaming</span></a>
+                    <ul>
+                        <li><a href="#0">KeyBoard</a>
+                        </li>
+                        <li><a href="#0">Mouse</a></li>
+                        <li><a href="#0">Headphone</a></li>
+                        <li><a href="#0">Mouse Pad</a></li>
+                        <li><a href="#0">GamePad</a></li>
+                        <li><a href="#0">Gaming Desk</a></li>
+                      </ul>
+                </li>
+              </ul>
+          </nav>
+        </div>
+        <!--End Responsive menu-->
+        <div class="navbar-area">
+          <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+            <div class="container">
+                <div class="logo-wrap">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/image/logo.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">   
+                        <i class="fas fa-bars" style="color:#fff; font-size:25px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav custom-navbar ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Desktop</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Special Pc</a>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Star Pc</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">RYZEN Pc</a></li>
+                                      <li><a class="dropdown-item" href="#">Intel Pc</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Gaming Pc</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">RYZEN Pc</a></li>
+                                      <li><a class="dropdown-item" href="#">Intel Pc</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Brand Pc</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Lenevo</a></li>
+                                      <li><a class="dropdown-item" href="#">Hp</a></li>
+                                      <li><a class="dropdown-item" href="#">Dell</a></li>
+                                      <li><a class="dropdown-item" href="#">Asus</a></li>
+                                      <li><a class="dropdown-item" href="#">Acer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Apple Mac Mini</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Apple IMac</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Laptop
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">All Laptop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Razor</a></li>
+                                    <li><a class="dropdown-item" href="#">Mi</a></li>
+                                    <li><a class="dropdown-item" href="#">MacBook</a></li>
+                                    <li><a class="dropdown-item" href="#">Surface</a></li>
+                                    <li><a class="dropdown-item" href="#">Dell</a></li>
+                                    <li><a class="dropdown-item" href="#">Lenevo</a></li>
+                                    <li><a class="dropdown-item" href="#">Acer</a></li>
+                                    <li><a class="dropdown-item" href="#">Walton</a></li>
+                                    <li><a class="dropdown-item" href="#">Nexstgo</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Gaming Laptop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Razor</a></li>
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                    <li><a class="dropdown-item" href="#">Asus</a></li>
+                                    <li><a class="dropdown-item" href="#">MSI</a></li>
+                                    <li><a class="dropdown-item" href="#">Dell</a></li>
+                                    <li><a class="dropdown-item" href="#">Lenevo</a></li>
+                                    <li><a class="dropdown-item" href="#">Acer</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Laptop Bag</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                    <li><a class="dropdown-item" href="#">Targus</a></li>
+                                    <li><a class="dropdown-item" href="#">Dell</a></li>
+                                    <li><a class="dropdown-item" href="#">Lenevo</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Laptop Accessories</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Laptop Cooler</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop Desk</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop Locker</a></li>
+                                    <li><a class="dropdown-item" href="#">Laptop Bttery</a></li>
+                                    <li><a class="dropdown-item" href="#">KeyBoard</a></li>
+                                    <li><a class="dropdown-item" href="#">Adapter</a></li>
+                                    <li><a class="dropdown-item" href="#">Display</a></li>
+                                    <li><a class="dropdown-item" href="#">DVD Writer</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a href="#0" class="dropdown-item">External Graphics Encloser</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Component
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Casing</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Antec</a></li>
+                                    <li><a class="dropdown-item" href="#">Gamdias</a></li>
+                                    <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                    <li><a class="dropdown-item" href="#">Cooler Master</a></li>
+                                    <li><a class="dropdown-item" href="#">NZXT</a></li>
+                                    <li><a class="dropdown-item" href="#">Gigabyte</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Casing Cooler</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Antec</a></li>
+                                    <li><a class="dropdown-item" href="#">Noctua</a></li>
+                                    <li><a class="dropdown-item" href="#">Lian Li</a></li>
+                                    <li><a class="dropdown-item" href="#">Gamedias</a></li>
+                                    <li><a class="dropdown-item" href="#">NZXT</a></li>
+                                    <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Power Supply</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Antec</a></li>
+                                    <li><a class="dropdown-item" href="#">Gamedias</a></li>
+                                    <li><a class="dropdown-item" href="#">MaxGreen</a></li>
+                                    <li><a class="dropdown-item" href="#">Cooler</a></li>
+                                    <li><a class="dropdown-item" href="#">Master</a></li>
+                                    <li><a class="dropdown-item" href="#">Thermaltake</a></li>
+                                    <li><a class="dropdown-item" href="#">Lian Li</a></li>
+                                    <li><a class="dropdown-item" href="#">MSI</a></li>
+                                    <li><a class="dropdown-item" href="#">Aigo</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Processor</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">AMD</a></li>
+                                    <li><a class="dropdown-item" href="#">Intel</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Cpu Cooler</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Antec</a></li>
+                                    <li><a class="dropdown-item" href="#">Gamdias</a></li>
+                                    <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                    <li><a class="dropdown-item" href="#">Lian Li</a></li>
+                                    <li><a class="dropdown-item" href="#">MSI</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Motherboard</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">ASROCK(Intel)</a></li>
+                                    <li><a class="dropdown-item" href="#">ASROCK(Ryzen)</a></li>
+                                    <li><a class="dropdown-item" href="#">ASUS(Intel)</a></li>
+                                    <li><a class="dropdown-item" href="#">ASUS(AMD)</a></li>
+                                    <li><a class="dropdown-item" href="#">Gigabyte(Intel)</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Graphics Card</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">XFX</a></li>
+                                    <li><a class="dropdown-item" href="#">Galax</a></li>
+                                    <li><a class="dropdown-item" href="#">ZOTAC</a></li>
+                                    <li><a class="dropdown-item" href="#">Gigabyte</a></li>
+                                    <li><a class="dropdown-item" href="#">ASUS</a></li>
+                                    <li><a class="dropdown-item" href="#">PNY</a></li>
+                                    <li><a class="dropdown-item" href="#">MSI</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Portable Hard Disk Drive</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">G-Technology</a></li>
+                                    <li><a class="dropdown-item" href="#">ADATA</a></li>
+                                    <li><a class="dropdown-item" href="#">Transcend</a></li>
+                                    <li><a class="dropdown-item" href="#">Western Digital</a></li>
+                                    <li><a class="dropdown-item" href="#">Seagate</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Hard Disk Drive</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Toshiba</a></li>
+                                    <li><a class="dropdown-item" href="#">Apple</a></li>
+                                    <li><a class="dropdown-item" href="#">Western Digital</a></li>
+                                    <li><a class="dropdown-item" href="#">Seagate</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">SSD</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Team</a></li>
+                                    <li><a class="dropdown-item" href="#">Western Digital</a></li>
+                                    <li><a class="dropdown-item" href="#">Adata</a></li>
+                                    <li><a class="dropdown-item" href="#">Transcend</a></li>
+                                    <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                    <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                    <li><a class="dropdown-item" href="#">Patroit</a></li>
+                                    <li><a class="dropdown-item" href="#">Intel</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">RAM(Desktop)</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Team</a></li>
+                                    <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                    <li><a class="dropdown-item" href="#">G.Skill</a></li>
+                                    <li><a class="dropdown-item" href="#">TwinMosa</a></li>
+                                    <li><a class="dropdown-item" href="#">Adata</a></li>
+                                    <li><a class="dropdown-item" href="#">Patroit</a></li>
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">RAM(Laptop)</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Team</a></li>
+                                    <li><a class="dropdown-item" href="#">Transcend</a></li>
+                                    <li><a class="dropdown-item" href="#">G.Skill</a></li>
+                                    <li><a class="dropdown-item" href="#">TRM</a></li>
+                                    <li><a class="dropdown-item" href="#">Patroit</a></li>
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Portable SSD</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                    <li><a class="dropdown-item" href="#">Transcend</a></li>
+                                    <li><a class="dropdown-item" href="#">G.Skill</a></li>
+                                    <li><a class="dropdown-item" href="#">TRM</a></li>
+                                    <li><a class="dropdown-item" href="#">Patroit</a></li>
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Ram Cooler</a>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Sound Card</a>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Optical Disk Drive</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Intel Optical Disk Drive</a></li>
+                                    <li><a class="dropdown-item" href="#">External Optical Disk Drive</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Stablizer</a>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Vertical Graphics Card Holder</a>
+                              </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Monitor</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Asus</a>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item" href="#0">LG</a>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Hp</a>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Dell</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Samsung</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Xiaomi</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Walton</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Acer</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Touch Monitor</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Gaming Monitor</a></li>
+                              </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ups</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Online Ups</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">APOLLO</a></li>
+                                      <li><a class="dropdown-item" href="#">Tecnoware</a></li>
+                                      <li><a class="dropdown-item" href="#">MaxGreen</a></li>
+                                      <li><a class="dropdown-item" href="#">Zigor</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Offline Ups</a>
+                                  <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Tecnoware</a></li>
+                                        <li><a class="dropdown-item" href="#">MaxGreen</a></li>
+                                        <li><a class="dropdown-item" href="#">Zigor</a></li>
+                                        <li><a class="dropdown-item" href="#">Prolink</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">UPS Battery</a></li>
+                              </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tablet</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Apple</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Microsoft</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Leneovo</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">HUAWEI</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Wacom</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Amazon</a></li>
+                              </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Camera</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Action Camera</a></li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">DSLR</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Canon</a></li>
+                                      <li><a class="dropdown-item" href="#">Nikon</a></li>
+                                      <li><a class="dropdown-item" href="#">Sony</a></li>
+                                      <li><a class="dropdown-item" href="#">Handcyam</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Camera Lenses</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Sony</a></li>
+                                      <li><a class="dropdown-item" href="#">Nikon</a></li>
+                                      <li><a class="dropdown-item" href="#">Canon</a></li>
+                                      <li><a class="dropdown-item" href="#">Tamron</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Digital Camera</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                      <li><a class="dropdown-item" href="#">Sony</a></li>
+                                      <li><a class="dropdown-item" href="#">Panasonic</a></li>
+                                      <li><a class="dropdown-item" href="#">Nikon</a></li>
+                                      <li><a class="dropdown-item" href="#">Canon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Video Camera</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Sony</a></li>
+                                        <li><a class="dropdown-item" href="#">Panasonic</a></li>
+                                        <li><a class="dropdown-item" href="#">Canon</a></li>
+                                      </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Camera Flash</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Camera Tripod</a></li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Camera Accessories</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Lens Filter</a></li>
+                                        <li><a class="dropdown-item" href="#">Camera Bag</a></li>
+                                        <li><a class="dropdown-item" href="#">Lens Adapter</a></li>
+                                      </ul>
+                                </li>
+                              </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Security</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Access Control</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Cp Plus</a></li>
+                                      <li><a class="dropdown-item" href="#">Zkteco</a></li>
+                                      <li><a class="dropdown-item" href="#">Onspot</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">CC Camera</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Jovision</a></li>
+                                      <li><a class="dropdown-item" href="#">YHDO</a></li>
+                                      <li><a class="dropdown-item" href="#">TVT</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">IP Camera</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Dahua</a></li>
+                                      <li><a class="dropdown-item" href="#">Symphony</a></li>
+                                      <li><a class="dropdown-item" href="#">Jovision</a></li>
+                                      <li><a class="dropdown-item" href="#">TP-Link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item" href="#0">CC Camera Accessories</a>
+                                </li>
+                              </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessories</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Keyboard</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Razar</a></li>
+                                      <li><a class="dropdown-item" href="#">GAMDIAS</a></li>
+                                      <li><a class="dropdown-item" href="#">MaxGreen</a></li>
+                                      <li><a class="dropdown-item" href="#">Apple</a></li>
+                                      <li><a class="dropdown-item" href="#">A4 Tech</a></li>
+                                      <li><a class="dropdown-item" href="#">Hp</a></li>
+                                      <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                      <li><a class="dropdown-item" href="#">Dell</a></li>
+                                      <li><a class="dropdown-item" href="#">Coder Mater</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Mouse</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Razer</a></li>
+                                    <li><a class="dropdown-item" href="#">GAMDIAS</a></li>
+                                    <li><a class="dropdown-item" href="#">ASUS</a></li>
+                                    <li><a class="dropdown-item" href="#">MaxGreen</a></li>
+                                    <li><a class="dropdown-item" href="#">Apple</a></li>
+                                    <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                    <li><a class="dropdown-item" href="#">A4 Tech</a></li>
+                                    <li><a class="dropdown-item" href="#">Lenovo</a></li>
+                                    <li><a class="dropdown-item" href="#">Dell</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Mouse Pad</a>
+                                  <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Razer</a></li>
+                                        <li><a class="dropdown-item" href="#">GAMDIAS</a></li>
+                                        <li><a class="dropdown-item" href="#">ASUS</a></li>
+                                        <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                        <li><a class="dropdown-item" href="#">Hp</a></li>
+                                        <li><a class="dropdown-item" href="#">Hunter</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Headphone</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Razer</a></li>
+                                          <li><a class="dropdown-item" href="#">GAMDIAS</a></li>
+                                          <li><a class="dropdown-item" href="#">Havit</a></li>
+                                          <li><a class="dropdown-item" href="#">Corsair</a></li>
+                                          <li><a class="dropdown-item" href="#">Hp</a></li>
+                                          <li><a class="dropdown-item" href="#">A4 Tech</a></li>
+                                          <li><a class="dropdown-item" href="#">Plextone</a></li>
+                                          <li><a class="dropdown-item" href="#">Remax</a></li>
+                                          <li><a class="dropdown-item" href="#">Xiomi</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Speaker</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Razer</a></li>
+                                          <li><a class="dropdown-item" href="#">Sony</a></li>
+                                          <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                          <li><a class="dropdown-item" href="#">Philips</a></li>
+                                          <li><a class="dropdown-item" href="#">Yamaha</a></li>
+                                          <li><a class="dropdown-item" href="#">Xtreme</a></li>
+                                          <li><a class="dropdown-item" href="#">KRK</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Bluetooth Speakers</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">F & D</a></li>
+                                          <li><a class="dropdown-item" href="#">JBL</a></li>
+                                          <li><a class="dropdown-item" href="#">Sony</a></li>
+                                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                          <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                          <li><a class="dropdown-item" href="#">Remax</a></li>
+                                          <li><a class="dropdown-item" href="#">X-MINI</a></li>
+                                          <li><a class="dropdown-item" href="#">A4 Tech</a></li>
+                                          <li><a class="dropdown-item" href="#">Hp</a></li>
+                                          <li><a class="dropdown-item" href="#">Dell</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">EarPhone</a>
+                                    <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Razer</a></li>
+                                          <li><a class="dropdown-item" href="#">Sony</a></li>
+                                          <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                          <li><a class="dropdown-item" href="#">Realme</a></li>
+                                          <li><a class="dropdown-item" href="#">Apple</a></li>
+                                          <li><a class="dropdown-item" href="#">A4 Tech</a></li>
+                                          <li><a class="dropdown-item" href="#">Oneplus</a></li>
+                                          <li><a class="dropdown-item" href="#">Remax</a></li>
+                                          <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                          <li><a class="dropdown-item" href="#">Plextone</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Webcam</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Logitech</a></li>
+                                          <li><a class="dropdown-item" href="#">A4 Tech</a></li>
+                                          <li><a class="dropdown-item" href="#">Benq</a></li>
+                                          <li><a class="dropdown-item" href="#">Value-Top</a></li>
+                                          <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                          <li><a class="dropdown-item" href="#">View Sonic</a></li>
+                                          <li><a class="dropdown-item" href="#">Delux</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Microphone</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Razer</a></li>
+                                          <li><a class="dropdown-item" href="#">Boya</a></li>
+                                          <li><a class="dropdown-item" href="#">Audio Technica</a></li>
+                                          <li><a class="dropdown-item" href="#">Panasonic</a></li>
+                                          <li><a class="dropdown-item" href="#">Zoom</a></li>
+                                          <li><a class="dropdown-item" href="#">Havit</a></li>
+                                          <li><a class="dropdown-item" href="#">AKG</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">PenDrive</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Team</a></li>
+                                          <li><a class="dropdown-item" href="#">Trancend</a></li>
+                                          <li><a class="dropdown-item" href="#">PNY</a></li>
+                                          <li><a class="dropdown-item" href="#">HP</a></li>
+                                          <li><a class="dropdown-item" href="#">ADTA</a></li>
+                                          <li><a class="dropdown-item" href="#">SanDisk</a></li>
+                                          <li><a class="dropdown-item" href="#">Kingston</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">PenDrive</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Team</a></li>
+                                          <li><a class="dropdown-item" href="#">Trancend</a></li>
+                                          <li><a class="dropdown-item" href="#">PNY</a></li>
+                                          <li><a class="dropdown-item" href="#">HP</a></li>
+                                          <li><a class="dropdown-item" href="#">ADTA</a></li>
+                                          <li><a class="dropdown-item" href="#">SanDisk</a></li>
+                                          <li><a class="dropdown-item" href="#">Kingston</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item" href="#0">Capture Card</a>
+                                  </li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">Memory Card</a>
+                                    <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Trancend</a></li>
+                                          <li><a class="dropdown-item" href="#">PNY</a></li>
+                                          <li><a class="dropdown-item" href="#">ADTA</a></li>
+                                          <li><a class="dropdown-item" href="#">SanDisk</a></li>
+                                          <li><a class="dropdown-item" href="#">Apacer</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" d="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gaming</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#0">KeyBoard</a>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Mouse</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Headphone</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Mouse Pad</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">GamePad</a></li>
+                                <li class="dropdown-submenu"><a href="#0" class="dropdown-item">Gaming Desk</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header> 
+    <!--End Laptop Menu-->
+    <!--Start Banner area-->
+    <section class="banner-area-one">
+      <div class="banner-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="cart.html">Shopping-Cart</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Banner area-->
+    <!--Start Cart area-->
+    <section class="cart-wrapper-area">
+        <div class="cart-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <form>
+                            <div class="cart-wraps">
+                                <div class="cart-table table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Image</th>
+                                                <th scope="col">Product name</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Quantity</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                        <img src="assets/image/mouse.png" alt="Image">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <a href="#">Ryzen</a>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="unit-amount">$99.00</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="input-counter">
+                                                        <span class="minus-btn">
+                                                            <i class="fas fa-minus"></i>
+                                                        </span>
+                                                        <input type="text" min="1" value="1">
+                                                        <span class="plus-btn">
+                                                         <i class="fas fa-plus"></i>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="subtotal-amount">$99.00</span>
+                                                        <a href="#" class="remove">
+                                                           <i class="fas fa-times"></i>
+                                                        </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                      <img src="assets/image/mouse.png" alt="Image">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <a href="#">Electrical carpenter tool</a>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="unit-amount">$459.00</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="input-counter">
+                                                        <span class="minus-btn">
+                                                            <i class="fas fa-minus"></i>
+                                                        </span>
+                                                        <input type="text" min="1" value="1">
+                                                        <span class="plus-btn">
+                                                         <i class="fas fa-plus"></i>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="subtotal-amount">$459.00</span>
+                                                        <a href="#" class="remove">
+                                                           <i class="fas fa-times"></i>
+                                                        </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                      <img src="assets/image/mouse.png" alt="Image">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <a href="#">Construction helmets</a>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="unit-amount">$89.00</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="input-counter">
+                                                        <span class="minus-btn">
+                                                            <i class="fas fa-minus"></i>
+                                                        </span>
+                                                        <input type="text" min="1" value="1">
+                                                            <span class="plus-btn">
+                                                             <i class="fas fa-plus"></i>
+                                                            </span>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="subtotal-amount">$89.00</span>
+                                                        <a href="#" class="remove">
+                                                           <i class="fas fa-times"></i>
+                                                        </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                      <img src="assets/image/mouse.png" alt="Image">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <a href="#">Little adjustable wrench</a>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="unit-amount">$59.00</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="input-counter">
+                                                        <span class="minus-btn">
+                                                            <i class="fas fa-minus"></i>
+                                                        </span>
+                                                        <input type="text" min="1" value="1">
+                                                        <span class="plus-btn">
+                                                         <i class="fas fa-plus"></i>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="subtotal-amount">$59.00</span>
+                                                        <a href="#" class="remove">
+                                                           <i class="fas fa-times"></i>
+                                                        </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="cart-btn">
+                                  <a href="#0" class="default">Update cart</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
+                      <h3 class="cart-checkout-title">Checkout summary</h3>
+                      <div class="cart-totals">
+                        <ul>
+                          <li>Subtotal <span>$706.00</span></li>
+                          <li>Shipping <span>$00.00</span></li>
+                          <li>Total <span>$706.00</span></li>
+                          <li><b>Payable Total</b> <span><b>$706.00</b></span></li>
+                        </ul>
+                        <a href="checkout.html" class="default">Buy now</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!--End Cat area-->
+    <!--Start Footer area-->
+    <footer class="footer-wrapper-area">
+            <div class="footer-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="footer-area">
+                      <a href="index.html">
+                        <img src="assets/image/logo.png" alt="" class="img-fluid">
+                      </a>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus.<br> Erat et lectus vel ut sollicitudin elit at amet.</p>
+                      <div class="payment">
+                        <img src="assets/image/bkash-nagad-rocket-1.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-6 col-md-6">
+                    <div class="categories">
+                      <h4>Categories</h4>
+                      <ul>
+                        <li><a href="#0">Desktop</a></li>
+                        <li><a href="#0">Laptop</a></li>
+                        <li><a href="#0">Monitor</a></li>
+                        <li><a href="#0">Component</a></li>
+                        <li><a href="#0">Camera</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-6 col-md-6">
+                    <div class="categories">
+                      <h4>About</h4>
+                      <ul>
+                        <li><a href="#0">Contact Us</a></li>
+                        <li><a href="#0">Privacy Poliocy</a></li>
+                        <li><a href="#0">Terms & Conditions</a></li>
+                        <li><a href="#0">Login</a></li>
+                        <li><a href="#0">Register</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="contact">
+                      <h4>Contact Us</h4>
+                      <ul>
+                        <li><a href="#0"><span>Leading Computers & Technology</span>-LCT <br> 3300 Habiganj Sadar,Sylhet Division, Bangladesh</a></li>
+                        <li><a href="#0"><span>Email</span>: contact@leadingtech.com.bd
+                        </a></li>
+                        <li><a href="#0"><span>Phone:</span> 01777-272307</a></li>
+                        <li><a href="#0"><span>Whatsapp:</span>
+                          +880 1601-020403</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-bottom-area">
+                  <div class="row align-items-center">
+                      <div class="col-lg-12">
+                          <p><i class="far fa-copyright"></i>2021 is Proudly Powered by <a target="_blank" href="#0">Leading Computers & Technology</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="footer-effect-one"></div>
+            <div class="footer-effect-two"></div>
+            <div class="footer-effect-three"></div>
+    </footer>
+    <!--End Footer area-->
+    <!-- Links of JS file -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
